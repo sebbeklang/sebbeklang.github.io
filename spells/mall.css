@@ -1,0 +1,123 @@
+
+.spell, .button{
+    text-align: center;	
+	border-color:white;
+	border-style:solid;
+	padding-top: 5px;
+    padding-bottom: 5px;
+	color:white;
+	font-family:"Segoe UI",Arial,sans-serif;
+	font-weight:500;
+}
+a{
+	color:white;
+}
+
+.image{
+	padding:5px;
+	display:inline;
+}
+.imageContainer{
+	padding-top:10px;
+    text-align: center;	
+}
+
+.button{
+	background-color:#999999;
+}
+ span {
+    vertical-align: middle;	
+}
+.selected{
+	border-color:black;
+}
+	
+.Chronomancer.unselected {
+	background-color:#000080;
+}
+.Chronomancer.selected {
+	background-color:#00004d;
+}
+.Elementalist.unselected {
+	background-color:#ff9980;
+}
+.Elementalist.selected {
+	background-color:#ff704d;
+}
+.Enchanter.unselected {
+	background-color:#663300;
+}
+.Enchanter.selected {
+	background-color:#331a00;
+}
+.Illusionist.unselected {
+	background-color:#cccc00;
+}
+.Illusionist.selected {
+	background-color:#b3b300;
+}
+.Necromancer.unselected {
+	background-color:#9966ff;
+}
+.Necromancer.selected {
+	background-color:#9933ff;
+}
+.Sigilist.unselected {
+	background-color:#3399ff;
+}
+.Sigilist.selected {
+	background-color:#0080ff;
+}
+.Soothsayer.unselected {
+	background-color:#009999;
+}
+.Soothsayer.selected {
+	background-color:#006666;
+}
+.Summoner.unselected {
+	background-color:#990033;
+}
+.Summoner.selected {
+	background-color:#660022;
+}
+.Thaumaturge.unselected {
+	background-color:#ff99ff;
+}
+.Thaumaturge.selected {
+	background-color:#ff66ff;
+}
+.Witch.unselected {
+	background-color:#88cc00;
+}
+.Witch.selected {
+	background-color:#669900;
+}
+@media screen { 
+	#printresult{
+		display: none;
+	}
+}
+@media print { 
+	.noprint{
+		display: none;
+	}
+	#printresult { 
+		display: block;
+	}
+	    @page 
+    {
+        size:  auto;   /* auto is the initial value */
+        margin: 0mm;  /* this affects the margin in the printer settings */
+    }
+
+    html
+    {
+        background-color: #FFFFFF; 
+        margin: 0px;  /* this affects the margin on the html before sending to printer */
+    }
+
+    body
+    {
+        margin: 10mm 15mm 10mm 15mm; /* margin you want for the content */
+    }
+}
