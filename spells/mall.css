@@ -94,7 +94,7 @@ a{
 }
 @media screen { 
 	#printresult{
-		display: none;
+		/*display: none;*/
 	}
 }
 @media print { 
