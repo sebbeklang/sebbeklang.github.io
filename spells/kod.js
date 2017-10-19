@@ -6,10 +6,8 @@ $("#print").click(function(){
 $(function() {
 	var i = 1;
 
-
 	spells.sort(SortBySchool);
 	init(); 
-	
 	
 	$("#clear").click(function(){
 		$(".selected").toggleClass( "unselected" )
@@ -90,7 +88,7 @@ $(function() {
 					result += "<div class='imageContainer'>"
 				}
 				result += "<div class='image'><img src='images/img_trans.png' "
-				result += "style='width:100;height:100;background: url(images/spell_sprite.PNG) ";
+				result += "style='width:456;height:326;background: url(images/spell_sprite.PNG) ";
 				result += GetPositionByID($(this).attr('id'));
 				result += ";' /></div>";
 				if(i%2 != 0){
