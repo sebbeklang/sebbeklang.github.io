@@ -88,7 +88,7 @@ $(function() {
 					result += "<div class='imageContainer'>"
 				}
 				result += "<div class='image'><img src='images/img_trans.png' "
-				result += "style='width:456;height:326;background: url(images/spell_sprite.PNG) ";
+				result += "style='width:455;height:326;background: url(images/spell_sprite.PNG) ";
 				result += GetPositionByID($(this).attr('id'));
 				result += ";' /></div>";
 				if(i%2 != 0){
