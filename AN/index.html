@@ -1,1 +1,55 @@
-
+<html>
+    <head>
+        <script
+        src="https://code.jquery.com/jquery-3.4.0.js"
+        integrity="sha256-DYZMCC8HTC+QDr5QNaIcfR7VSPtcISykd+6eSmBW5qo="
+        crossorigin="anonymous"></script>
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+        rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" 
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="data.js"></script>
+        <script type="text/javascript" src="script.js"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-4" id="ships">    
+                    
+                    <button id="addShip">+</button>
+                </div>
+                <div class="col-sm-8">
+                        <ul id="hubs" style="column-count: 3"></ul>
+                </div>
+            </div>
+        </div>
+        <div>
+            
+        </div>
+        <div id="shipTemplate" style="display:none;">
+            <div class="container ship">
+                <div class="row">
+                    <select class="types">
+                    </select>
+                    <input type="text"></input>
+                </div>
+                <div class="row">
+                    <div class="col-sm-2">TRC:<span class="trcContainer"></span></div>
+                    <div class="col-sm-2">BRC:<span class="brcContainer"></span></div>
+                    <div class="col-sm-2">CV:<span class="cvContainer"></span></div>
+                    <div class="col-sm-3">Scalar:<span class="scalarContainer"></span></div>
+                    <div class="col-sm-3">Theta:<span class="thetaContainer"></span></div>
+                </div>
+                <div class="row" style="display:none;">
+                    <div class="col-sm-2">#</div>
+                    <div class="col-sm-6">CV [][][]</div>
+                    <div class="col-sm-2">C</div>
+                    <div class="col-sm-2">D</div>
+                </div>
+                <div class="hubContainer">
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
